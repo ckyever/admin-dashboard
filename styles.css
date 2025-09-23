@@ -29,14 +29,6 @@ svg {
   max-width: 100%;
 }
 
-/* 7. Inherit fonts for form controls */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
 /* 8. Avoid text overflows */
 p,
 h1,
@@ -63,3 +55,32 @@ h6 {
 }
 
 /* End of CSS Reset */ 
+
+* {
+  --primary-background-color: #ffffff;   
+  --secondary-background-color: #E2E8EF;
+  --accent-background-color: #1A92D4;
+  --primary-text-color: #000000;
+  --secondary-text-color: #ffffff;   
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr;
+  height: 100vh;
+}
+
+.dashboard {
+  grid-row: 1 / span 2;
+  background-color: var(--accent-background-color);
+  color: var(--secondary-text-color);
+}
+
+.menu {
+  background-color: var(--primary-background-color);
+}
+
+.content {
+  background-color: var(--secondary-background-color);
+}
