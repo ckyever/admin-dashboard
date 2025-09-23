@@ -80,8 +80,19 @@ h6 {
   gap: 30px;
 }
 
-.menu {
+.top-menu {
   background-color: var(--primary-background-color);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.search-field {
+  width: 400px;
+}
+
+.profile {
+  display: flex;
+  gap: 16px;
 }
 
 .content {
