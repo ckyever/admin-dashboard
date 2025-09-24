@@ -96,7 +96,7 @@ footer > a {
 .container {
   display: grid;
   grid-template-columns: 316px 3fr;
-  grid-template-rows: 180px auto;
+  grid-template-rows: 140px auto;
   height: 100vh;
   position: relative;
 }
@@ -156,7 +156,8 @@ footer > a {
 }
 
 .search-field {
-  width: 440px;
+  width: 75%;
+  max-width: 800px;
   height: 30px;
   border: none;
   border-radius: 16px;
@@ -164,10 +165,7 @@ footer > a {
 }
 
 .profile {
-  display: flex;
   gap: 16px;
-  justify-content: center;
-  align-items: center;
 }
 
 .profile-picture {
@@ -204,8 +202,6 @@ footer > a {
 }
 
 .actions {
-  display: flex;
-  align-items: center;
   gap: 16px;
 }
 
@@ -217,6 +213,13 @@ footer > a {
   padding: 8px;
   width: 80px;
   font-size: 0.9rem;
+}
+
+.profile, .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 40px;
 }
 
 .content {
