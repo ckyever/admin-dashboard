@@ -229,6 +229,12 @@ footer > a {
   grid-template-columns: 3fr 1fr;
 }
 
+.content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 .projects, .content-right {
   padding: 24px;
 }
@@ -264,4 +270,18 @@ footer > a {
 
 .project-actions .icon {
   width: 24px;
+}
+
+.announcements ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.announcements li {
+  max-height: 450px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
