@@ -60,6 +60,7 @@ h6 {
   --primary-background-color: #ffffff;   
   --secondary-background-color: #E2E8EF;
   --accent-background-color: #1A92D4;
+  --card-highlight: #F0B429;
   --primary-text-color: #000000;
   --secondary-text-color: #ffffff;   
 }
@@ -244,6 +245,7 @@ footer > a {
 .projects li {
   min-height: 250px;
   position: relative;
+  border-left: 8px solid var(--card-highlight);
 }
 
 .projects ul {
