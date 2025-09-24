@@ -81,11 +81,24 @@ h4 {
   font-size: 1rem;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+}
+
+footer > a {
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+  color: var(--secondary-text-color);
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 180px auto;
   height: 100vh;
+  position: relative;
 }
 
 .sidebar {
