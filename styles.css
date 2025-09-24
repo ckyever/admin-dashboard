@@ -84,6 +84,7 @@ h4 {
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  grid-template-rows: 180px auto;
   height: 100vh;
 }
 
