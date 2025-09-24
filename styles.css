@@ -226,7 +226,7 @@ footer > a {
 .content {
   background-color: var(--secondary-background-color);
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1.4fr;
 }
 
 .content-right {
@@ -284,4 +284,19 @@ footer > a {
   -webkit-line-clamp: 6; /* number of lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.trending ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.username {
+  font-weight: 600;
+}
+
+.trending li {
+  display: flex;
+  gap: 8px;
 }
