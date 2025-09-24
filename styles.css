@@ -243,10 +243,23 @@ footer > a {
 
 .projects li {
   min-height: 250px;
+  position: relative;
 }
 
 .projects ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 24px;
+}
+
+.project-actions {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.project-actions .icon {
+  width: 24px;
 }
