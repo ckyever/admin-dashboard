@@ -108,6 +108,32 @@ footer > a {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 24px;
+}
+
+.menu-item {
+  display: flex;
+  gap: 12px;
+}
+
+.icon {
+  filter: invert(1);
+  width: 22px;
+}
+
+.header .icon {
+  width: 40px;
+}
+
+.menu, .secondary-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.menu-link {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .top-menu {
