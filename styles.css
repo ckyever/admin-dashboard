@@ -203,6 +203,22 @@ footer > a {
   font-size: 1.1rem;
 }
 
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.actions > button {
+  border: none;
+  background-color: var(--accent-background-color);
+  border-radius: 16px;
+  color: var(--secondary-text-color);
+  padding: 8px;
+  width: 80px;
+  font-size: 0.9rem;
+}
+
 .content {
   background-color: var(--secondary-background-color);
   display: grid;
