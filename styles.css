@@ -63,6 +63,7 @@ h6 {
   --card-highlight: #F0B429;
   --primary-text-color: #000000;
   --secondary-text-color: #ffffff;   
+  --alternative-text-color: #5c5c5c;   
 }
 
 ul {
@@ -292,11 +293,16 @@ footer > a {
   gap: 16px;
 }
 
-.username {
-  font-weight: 600;
-}
-
 .trending li {
   display: flex;
   gap: 8px;
+}
+
+.content p {
+  color: var(--alternative-text-color);
+}
+
+p.username {
+  color: var(--primary-text-color);
+  font-weight: 500;
 }
