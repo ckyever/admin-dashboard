@@ -166,6 +166,20 @@ footer > a {
 .profile {
   display: flex;
   gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 44px;
+  height: 44px;
+  background-color: var(--secondary-background-color);
+  border-radius: 100%;
+  padding: 4px;
+}
+
+.profile-link {
+  font-weight: 600;
 }
 
 .content {
