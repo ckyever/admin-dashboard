@@ -116,7 +116,7 @@ footer > a {
   gap: 12px;
 }
 
-.icon {
+.sidebar .icon {
   filter: invert(1);
   width: 22px;
 }
@@ -140,10 +140,27 @@ footer > a {
   background-color: var(--primary-background-color);
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 2fr;
+  padding-left: 16px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.top-menu .icon {
+  width: 22px;
+  margin: 8px;
 }
 
 .search-field {
-  width: 400px;
+  width: 440px;
+  height: 30px;
+  border: none;
+  border-radius: 16px;
+  background-color: var(--secondary-background-color);
 }
 
 .profile {
