@@ -1,5 +1,5 @@
 # Admin Dashboard
-An Admin Dashboard for a fictional website built with HTML5, CSS3, and JavaScript (ES6+).
+An non-functional admin dashboard for a fictional website built with HTML5, CSS3, and JavaScript (ES6+).
 
 👉 [Live Demo](https://ckyever.github.io/admin-dashboard/)
 
